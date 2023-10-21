@@ -13,3 +13,7 @@ Queues are another linear data structure, but they follow the First-In-First-Out
 ## Circular Queues
 
 A circular queue is the extended version of a regular queue where the last element is connected to the first element. Thus forming a circle-like structure.
+
+## Linked Lists
+
+Linked lists are fundamental data structures that consist of nodes, each containing a value and a reference (or link) to the next node in the sequence. Linked lists are useful for implementing data structures like stacks and queues. In JavaScript, you can create a simple linked list using objects. Linked lists are particularly helpful when dealing with data that needs frequent insertions or deletions.
