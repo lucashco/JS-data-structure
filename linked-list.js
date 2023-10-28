@@ -185,3 +185,6 @@ list.insert(40, 3);
 list.search(20);
 
 list.removeFrom(2);
+
+list.reverse();
+list.print();
