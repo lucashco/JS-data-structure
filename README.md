@@ -17,3 +17,7 @@ A circular queue is the extended version of a regular queue where the last eleme
 ## Linked Lists
 
 Linked lists are fundamental data structures that consist of nodes, each containing a value and a reference (or link) to the next node in the sequence. Linked lists are useful for implementing data structures like stacks and queues. In JavaScript, you can create a simple linked list using objects. Linked lists are particularly helpful when dealing with data that needs frequent insertions or deletions.
+
+## Linked Lists With Tail
+
+Linked list with tail is the same as regular linked list, but with the possibility of tracking the value at the end of the list. This can improve performance in some linked lists methods.
