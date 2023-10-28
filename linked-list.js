@@ -122,6 +122,24 @@ class LinkedList {
     }
   }
 
+  search(value) {
+    if (this.isEmpty()) {
+      return -1;
+    }
+    let i = 0;
+    let curr = this.head;
+
+    while (curr) {
+      if (curr.value === value) {
+        return i;
+      }
+      curr = curr.next;
+      i++;
+    }
+
+    return -1;
+  }
+
   print() {
     if (this.isEmpty()) {
       console.log("The list is emtpy");
@@ -149,3 +167,8 @@ list.print();
 list.append(20);
 list.append(30);
 list.print();
+list.insert(40, 3);
+
+list.search(20);
+
+list.removeFrom(2);
